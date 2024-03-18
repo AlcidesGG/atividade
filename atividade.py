@@ -1,5 +1,6 @@
-num=int(input("digite um numero"))
-if num %2==0:
- print("o numero e par")
-else:
- print("o numero e impar")
+import random
+numero_minimo=int(input("digite o valor minimo"))
+numero_maximo=int(input("digite o valor maximo"))
+
+numero_aleatorio=random.randint(numero_minimo, numero_maximo)
+print("o numero aleatorio é", numero_aleatorio)
